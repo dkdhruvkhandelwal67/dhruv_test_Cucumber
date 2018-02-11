@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="702" started-at="2018-02-10T18:04:59Z" finished-at="2018-02-10T18:05:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepdefs.TestRunner@77b52d12]" name="feature" class="stepdefs.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="702" started-at="2018-02-10T18:04:59Z" finished-at="2018-02-10T18:05:00Z">
+      <class name="stepdefs.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:stepdefs.TestRunner@77b52d12]" name="setUpClass" is-config="true" duration-ms="208" started-at="2018-02-10T23:34:59Z" finished-at="2018-02-10T23:34:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepdefs.TestRunner@77b52d12]" name="feature" duration-ms="200" started-at="2018-02-10T23:35:00Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-02-10T23:35:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Login Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:stepdefs.TestRunner@77b52d12]" name="feature" duration-ms="64" started-at="2018-02-10T23:35:00Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-02-10T23:35:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Update Profile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:stepdefs.TestRunner@77b52d12]" name="tearDownClass" is-config="true" duration-ms="130" started-at="2018-02-10T23:35:00Z" finished-at="2018-02-10T23:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- stepdefs.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
